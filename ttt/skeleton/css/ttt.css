@@ -1,0 +1,67 @@
+html, body, h1, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+  }
+
+body {
+	background: #C0C0C0;
+	font-family: sans-serif;
+}
+
+.grid {
+	border: 5px solid blue;
+	width: 600px;
+	list-style: none;
+	margin: 50px auto;
+	display: block;
+}
+
+.grid:after {
+	display: block;
+	content: "";
+	clear: both;
+}
+
+.pos {
+	width: 190px;
+	height: 190px;
+	border: 5px solid blue;
+	float: left;
+	background: white;
+
+}
+
+.pos:hover {
+	background: yellow;
+	content: "X";
+}
+
+h1 {
+	text-align: center;
+	font-size: 36px;
+	padding-top: 20px;
+	font-weight: bold;
+}
+
+.x {
+	background: LightSalmon;
+}
+
+.o {
+	background: MediumAquaMarine;
+}
+
+button {
+	display: block;
+	margin: 20px auto;
+	width: 100px;
+	height: 45px;
+	border-radius: 10px;
+	font-size: 24px;
+	background: blue;
+	color: white;
+	font-weight: bold;
+/*	border: 5px solid black;*/
+}

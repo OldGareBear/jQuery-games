@@ -1,0 +1,82 @@
+body, section, ul, li, html, h1 {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body {
+	background: #F0F0F0;
+}
+
+h1 {
+	text-align: center;
+	padding: 20px;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+section {
+	margin: 50px auto;
+	width: 930px;
+	height: 310px;
+	border-bottom: 10px solid peru;
+	background: #F0F0F0;
+}
+
+ul {
+	border-top: 10px solid #F0F0F0;
+	border-left: 5px solid #F0F0F0;
+	border-right: 5px solid #F0F0F0;
+	background: url("discs/pole.png") no-repeat center;
+	background-height: 300px;
+}
+
+
+
+.tower {
+	float: left;
+	list-style: none;
+/*	border-bottom: 5px solid chocolate;*/
+	height: 300px;
+	width: 300px;
+}
+
+.tower:hover {
+	border: 5px dashed blue;
+	margin-top: 5px;
+	cursor: pointer;
+}
+
+.clicked {
+	float: left;
+	list-style: none;
+	border: 5px solid blue;
+	height: 300px;
+	width: 300px;
+	margin-top: 5px;
+}
+
+li {
+	height: 100px;
+	width: 300px;
+}
+
+.fake {
+}
+
+.one {
+	display: block ;
+	background: url("discs/peach.png") no-repeat center;
+	max-width: 100%;
+}
+
+.two {
+	background: url("discs/mauve.png") no-repeat center;
+	max-width: 100%;
+}
+
+.three {
+	background: url("discs/green.png") no-repeat center;
+	max-width: 100%;
+}
